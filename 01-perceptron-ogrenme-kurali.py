@@ -21,7 +21,7 @@ def guncelle(i, cikti_degeri):
     w[1] = w[1] + eta * (hedef_cikti[i] - cikti_degeri) * x2[i]
     teta = teta + eta * (hedef_cikti[i] - cikti_degeri)  
 
-for i in range(6):  
+for i in range(len(x1)):  
     cikti_degeri = cikti(i) 
 #    print(f"cikti({i}): {cikti_degeri}")
     if cikti_degeri != hedef_cikti[i]:
