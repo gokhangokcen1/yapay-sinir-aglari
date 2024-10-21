@@ -29,7 +29,7 @@ for i in range(len(x1)):
         guncelle(i, cikti_degeri)  
 #        print(f"Güncellendi\nw: {w}\nteta: {teta}\n") 
     else:
-        print("Tüm testler tamamlandı")
+        continue
 
 if w[0] == 0:
     print(f"Optimum değerler:\nw1 = {w[0]}\nw2 = {w[1]}\nteta = {teta}\ny = aktivasyon_fonksiyonu({w[1]}*x2{teta})")
